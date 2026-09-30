@@ -19,11 +19,13 @@ h1, h2, h3 {
 }
 
 .container {
-    max-width: 900px;
+    /* Ocupará el 95% del ancho de tu pantalla en lugar de un tamaño fijo */
+    width: 95%; 
+    max-width: none; /* Quitamos el límite anterior */
     margin: 0 auto;
     border: 3px solid #666;
     background-color: #111;
-    padding: 10px;
+    padding: 20px; /* Un poco más de espacio interior */
 }
 
 header {
