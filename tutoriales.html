@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐧 Tutoriales - La Cueva del Pingüino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><blink>///</blink> ZONA DE TUTORIALES <blink>///</blink></h1>
+        </header>
+
+        <div class="layout">
+            <aside class="sidebar">
+                <h3>Menú Principal</h3>
+                <ul>
+                    <li><a href="index.html">🏠 Inicio</a></li>
+                    <li><a href="catalogo.html">🎮 Catálogo de Juegos</a></li>
+                    <li><a href="tutoriales.html">🐧 Tutoriales (Wine/Proton)</a></li>
+                    <li><a href="#">✉️ Libro de Visitas</a></li>
+                </ul>
+            </aside>
+
+            <main class="content">
+                <h2>Cómo jugar en Linux sin morir en el intento</h2>
+                
+                <div class="game-box">
+                    <h3 style="color: #00FFFF;">Optimizando NVIDIA en Nobara Linux</h3>
+                    <p>Si tienes una gráfica dedicada (por ejemplo, una RTX 3050) y usas Nobara, ya tienes mucho terreno ganado. Aquí te explico cómo asegurarte de que tus juegos usen la tarjeta gráfica correcta:</p>
+                    
+                    <p><strong>Para juegos nativos o scripts:</strong></p>
+                    <p>Abre tu terminal y asegúrate de iniciar tus juegos con las variables de entorno de NVIDIA Prime. Ejemplo:</p>
+                    <pre style="background-color: #000; padding: 10px; border: 1px dashed #00FF00; color: #00FF00;">__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ./arrancar_juego.sh</pre>
+                </div>
+
+                <div class="game-box">
+                    <h3 style="color: #00FFFF;">Usando Lutris para juegos Old School</h3>
+                    <p>Para juegos de la era de Windows XP o Windows 7 (como Need for Speed), la mejor herramienta es Lutris.</p>
+                    <ul>
+                        <li>Instala Lutris desde tu gestor de paquetes (Flatpak o DNF).</li>
+                        <li>Añade el juego localmente.</li>
+                        <li>En la configuración del corredor (Runner), elige "Wine-GE".</li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>Diseñado en el espacio por Jahzeel</p>
+        </footer>
+    </div>
+</body>
+</html>
